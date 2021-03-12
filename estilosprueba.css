@@ -1,0 +1,106 @@
+body{
+    background-color: #1d2124;
+}
+header {
+    padding: 20px 0 0 0;
+    background: #1d2124;
+    text-align: center;
+}
+
+.logolocales img{
+    position: absolute;
+    width: 33px;
+    height: 35px;
+    margin-left: -66px;
+  
+}
+.logolocales h1{
+    position: relative;
+    left: 9px;
+}
+
+.icon-container{
+    display: flex;
+    margin-top: 70px;
+    
+    
+   
+}
+.icon-row ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
+   
+}
+.icon-row ul li:hover{
+    transform: translateY(-6px);
+    box-shadow: -1 1px 1px rgba(0,0,0,0.2);
+    border-radius: 100%;
+    border: none;
+}
+.icon-row img{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 100%;
+    border: none;
+    
+    
+    
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.hero {
+    background-image: url(/img/pizza-hero.jpg);
+    height: 551px;
+    
+    
+}
+.contenido-hero{
+    margin-top: 80px;
+    color: white;
+}
+.contenido-hero p{
+    font-size: 50px;
+}
+
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+.contenido-hero form #buscador {
+    height: 50px;
+    margin-bottom: 0;
+}
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(/img/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+}
+.barra {
+    padding: 9px 0;
+    background: #fbaf32;
+    background: -webkit-linear-gradient(left, #b95a00 0%,#ad5400 100% );
+}
+.barra p {
+    margin: 0;
+    color: white;
+}
